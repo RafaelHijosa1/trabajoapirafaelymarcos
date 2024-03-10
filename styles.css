@@ -1,0 +1,116 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+}
+
+h1 {
+    display: none;
+}
+
+#pokedexLogo {
+    width: 100px;
+    height: auto;
+}
+
+aside {
+    width: 200px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.pokemonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.pokemonContainer h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pokemonContainer p {
+    text-align: left;
+}
+
+.grass { background-color: #78C850; }
+.fire { background-color: #F08030; }
+.water { background-color: #6890F0; }
+.bug { background-color: #A8B820; }
+.normal { background-color: #A8A878; }
+.electric { background-color: #F8D030; }
+.poison { background-color: #A040A0; }
+.ground { background-color: #E0C068; }
+.fairy { background-color: #EE99AC; }
+.fighting { background-color: #C03028; }
+.psychic { background-color: #F85888; }
+.rock { background-color: #B8A038; }
+.ghost { background-color: #705898; }
+.ice { background-color: #98D8D8; }
+.dragon { background-color: #7038F8; }
+.dark { background-color: #705848; }
+.steel { background-color: #B8B8D0; }
+.flying { background-color: #A890F0; }
+
+header label {
+    font-family: 'Pacifico', cursive;
+}
+
+header input[type="text"] {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+aside h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+aside select {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+}
+
+footer button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+}

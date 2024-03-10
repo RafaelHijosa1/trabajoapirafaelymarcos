@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img id="pokedexLogo" src="imagen/logo.png" alt="Logo de Pokédex" style="width: 290px; height: auto; margin-right: 20px;">
+        <div style="margin-left: 100px;">
+            <label for="pokemonName" style="font-family: 'Pacifico', cursive;">Buscar por nombre:</label>
+            <input type="text" id="pokemonName" placeholder="Nombre del Pokémon" style="border-radius: 10px; padding: 10px; font-size: 16px;">
+            <button onclick="buscarPokemon()" style="background-color: #007bff; color: white; padding: 10px 20px; font-size: 16px; border-radius: 10px;">Buscar</button>
+        </div>
+    </header>
+    
+    <aside>
+        <h2 style="font-family: 'Pacifico', cursive;">Filtrar por tipo</h2>
+        <select id="tipoFiltro" onchange="filtrarPorTipo()" style="border-radius: 10px; padding: 10px; font-size: 16px; font-family: 'Pacifico', cursive;">
+            <option value="">Todos los tipos</option>
+        </select>
+    </aside>
+    
+    <main id="pokemonContainer"></main>
+    
+    <footer>
+        <button onclick="cargarMasPokemon()">Cargar más Pokémon</button>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
